@@ -37,7 +37,7 @@ function total(){
     let j = document.getElementById("juros").value;
     let t = document.getElementById("meses").value;
     if (!Number (v)){
-        alert("O campo valor deve ser númreros.");
+        alert("O campo Capital deve ser númreros.");
         document.getElementById("valor").value = "";
         document.getElementById("valor").focus();
         return;
@@ -92,5 +92,5 @@ function passa(){
     
     let r =  Number(n1)+Number(n2)+Number(n3)+Number(n4);
 
-    document.getElementById("resul").innerHTML = "Resultado " + (r -24);
+    document.getElementById("resul").innerHTML = "Resultado " + (24- r);
 }
