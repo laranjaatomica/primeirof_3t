@@ -31,3 +31,16 @@
     color: white;
     cursor: pointer;
 }
+.calcF {
+    display: none;
+}
+#input-calcF {
+    display: none;
+}
+h5 {
+    color: rgb(47, 48, 121);
+}
+
+#input-calcF:checked + .calculadora .calcF{
+    display: block;
+}
